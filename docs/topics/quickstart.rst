@@ -11,13 +11,13 @@ Start by installing ``datanorth``.  The easiest with is with **pip**::
     pip install datanorth --upgrade
 
 
-Configuring the Client
-----------------------
+Configuring the Project
+-----------------------
 
 The client should only be instantiated once for your application.  The instance can then be used for querying and pulling data::
 
-    from datanorth import Client
-    client = Client('https://helloworld@datanorth.io/<project>')
+    from datanorth import Project
+    client = Project('https://helloworld@datanorth.io/<project>')
 
 Example Usage
 -------------
